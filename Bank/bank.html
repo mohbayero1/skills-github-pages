@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Application</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+          <h1>0<mark class="opay">PAY</mark></h1>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+<input type="password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="open-account">
+            <h2>Open Account</h2>
+            <form id="open-account-form">
+                <label for="nin">NIN:</label>
+                <input type="text" id="nin" required>
+                <label for="bvn">BVN:</label>
+                <input type="text" id="bvn" required>
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" required>
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                  <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Open Account</button>
+            </form>
+        </section>
+    </main>
+    <script src="bank.js"></script>
+</body>
+</html>
